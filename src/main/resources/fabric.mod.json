@@ -1,8 +1,14 @@
 {
 	"schemaVersion": 1,
+<<<<<<< HEAD
 	"id": "copper-golem",
 	"version": "${version}",
 	"name": "copper-golem",
+=======
+	"id": "modid",
+	"version": "${version}",
+	"name": "Example mod",
+>>>>>>> 043c2ab1d5fb59c3cfb4d31d9af67c387c3edf6e
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,6 +18,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
+<<<<<<< HEAD
 	"icon": "assets/copper-golem/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -26,11 +33,31 @@
 		"copper-golem.mixins.json",
 		{
 			"config": "copper-golem.client.mixins.json",
+=======
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.ExampleMod"
+		],
+		"client": [
+			"com.example.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"modid.mixins.json",
+		{
+			"config": "modid.client.mixins.json",
+>>>>>>> 043c2ab1d5fb59c3cfb4d31d9af67c387c3edf6e
 			"environment": "client"
 		}
 	],
 	"depends": {
+<<<<<<< HEAD
 		"fabricloader": ">=0.17.3",
+=======
+		"fabricloader": ">=0.17.2",
+>>>>>>> 043c2ab1d5fb59c3cfb4d31d9af67c387c3edf6e
 		"minecraft": "~1.21.10",
 		"java": ">=21",
 		"fabric-api": "*"
