@@ -22,15 +22,11 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-<<<<<<< HEAD
-		"copper-golem" {
-=======
-		"modid" {
->>>>>>> 043c2ab1d5fb59c3cfb4d31d9af67c387c3edf6e
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
-	}
+    "copper-golem" {
+        sourceSet sourceSets.main
+        sourceSet sourceSets.client
+    }
+}
 
 }
 

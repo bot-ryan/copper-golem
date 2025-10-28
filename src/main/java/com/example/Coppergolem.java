@@ -20,5 +20,6 @@ public class Coppergolem implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Copper Golem mod initialized! Golems will now move faster.");
 	}
 }
